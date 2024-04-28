@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(20, 20, 20, 1);
+    font-family: "Inter";
+    min-height: 100vh;
+}
+
+.Profile{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    max-width: 90%;
+    background-color: rgba(31, 31, 31, 1);
+    padding: 40px;
+    border-radius: 8px;
+
+}
+
+img{
+    border-radius: 50%;
+    width: 90px;
+
+}
+
+h2{
+    font-weight: 700;
+    margin: 24px 0 8px 0;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 24px 0;
+
+
+}
+
+.p-location{
+    color: rgba(197, 248, 42, 1);
+    margin: 0;
+    font-weight: 600;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+}
+
+.nav-links{
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    margin: 7px 0;
+    background-color: rgba(51, 51, 51, 1);
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 14px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+
+}
+
+.nav-links:hover{
+    background-color: rgba(197, 248, 42, 1);
+    color: black;
+}
+
+.attribution{
+    display: flex;
+    flex-direction: column;
+    color: rgba(51, 51, 51, 1);
+    margin: 24px 0;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+.attribution p1:nth-child(odd){
+    margin: 0 0 5px 0;
+}
+
+.att-links{
+    color: inherit;
+    transition: 0.3s ease-in-out;
+}
+
+.att-links:hover{
+    color: rgba(197, 248, 42, 1);
+}
